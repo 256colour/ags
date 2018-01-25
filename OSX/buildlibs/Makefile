@@ -94,8 +94,8 @@ allegro: prepare
 		-D WANT_DOCS=off \
 		-D CMAKE_INSTALL_PREFIX=$(PREFIX) \
 		-G Xcode .. && \
-		xcodebuild -project ALLEGRO.xcodeproj -target ALL_BUILD -configuration Release && \
-		xcodebuild -project ALLEGRO.xcodeproj -target install -configuration Release
+		xcodebuild -project ALLEGRO.xcodeproj -target ALL_BUILD -configuration Release -sdk macosx10.11 && \
+		xcodebuild -project ALLEGRO.xcodeproj -target install -configuration Release -sdk macosx10.11
 
 define DUMB_CONF
 include make/unix.inc
