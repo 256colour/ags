@@ -30,6 +30,7 @@
 #include "platform/base/agsplatformdriver.h"
 #include "util/directory.h"
 #include "ac/common.h"
+#include "unistd.h"
 
 void AGSMacInitPaths(char gamename[256], char appdata[PATH_MAX]);
 void AGSMacGetBundleDir(char gamepath[PATH_MAX]);
