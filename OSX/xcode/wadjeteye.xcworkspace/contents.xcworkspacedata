@@ -2,7 +2,13 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:geminirue/GeminiRue.xcodeproj">
+      location = "group:mages_initiation/Mage&apos;s Initiation.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/chris/Projects/AGSteamFramework/AGSteam/AGSteam.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:unavowed/Unavowed.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:AGSKit/AGSKit.xcodeproj">
@@ -27,8 +33,5 @@
    </FileRef>
    <FileRef
       location = "group:unbound/Unbound.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:/Users/janetgilbert/Documents/ags/OSX/xcode/unavowed/Unavowed.xcodeproj">
    </FileRef>
 </Workspace>

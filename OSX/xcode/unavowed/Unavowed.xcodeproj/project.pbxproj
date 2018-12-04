@@ -25,12 +25,28 @@
 		14E15B9F20DF1993004BA193 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A30F903620D6AC8F0085FC40 /* Images.xcassets */; };
 		14E15BA020DF1993004BA193 /* acsetup.cfg in Resources */ = {isa = PBXBuildFile; fileRef = A30F906720D6B07D0085FC40 /* acsetup.cfg */; };
 		14E15BA220DF1993004BA193 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1444B1AB20D7463100A31ACB /* MainMenu.xib */; };
-		14E15BB120DF1A2B004BA193 /* audio.vox in Resources */ = {isa = PBXBuildFile; fileRef = 14E15BAE20DF1A2B004BA193 /* audio.vox */; };
-		14E15BB220DF1A2B004BA193 /* ac2game.dat in Resources */ = {isa = PBXBuildFile; fileRef = 14E15BAF20DF1A2B004BA193 /* ac2game.dat */; };
-		14E15BB320DF1A2B004BA193 /* speech.vox in Resources */ = {isa = PBXBuildFile; fileRef = 14E15BB020DF1A2B004BA193 /* speech.vox */; };
 		14E15BB520DF1A9F004BA193 /* ac2game.dat in Resources */ = {isa = PBXBuildFile; fileRef = A30F90AB20D6C72A0085FC40 /* ac2game.dat */; };
 		14E15BB920DF1CB0004BA193 /* speech.vox in Resources */ = {isa = PBXBuildFile; fileRef = 14E15BB820DF1CB0004BA193 /* speech.vox */; };
 		14E15BBA20DF1CB8004BA193 /* speech.vox in Resources */ = {isa = PBXBuildFile; fileRef = 14E15BB820DF1CB0004BA193 /* speech.vox */; };
+		836DA8C521B1B313001A2D2B /* libsteam_api.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 839D400A21B1AF55006D1BA0 /* libsteam_api.dylib */; };
+		836DA8E421B1FB0A001A2D2B /* libagsteam.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 836DA8E321B1FB09001A2D2B /* libagsteam.dylib */; };
+		836DA8E521B1FB28001A2D2B /* libagsteam.dylib in Copy Files */ = {isa = PBXBuildFile; fileRef = 836DA8E321B1FB09001A2D2B /* libagsteam.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		836DA8F321B1FF8B001A2D2B /* Resource001.him in Resources */ = {isa = PBXBuildFile; fileRef = 836DA8F121B1FF8B001A2D2B /* Resource001.him */; };
+		836DA8F421B1FF8B001A2D2B /* Resource002.him in Resources */ = {isa = PBXBuildFile; fileRef = 836DA8F221B1FF8B001A2D2B /* Resource002.him */; };
+		836DA8F521B200C9001A2D2B /* Mages_Initiation.001 in Resources */ = {isa = PBXBuildFile; fileRef = 836DA8EF21B1FF71001A2D2B /* Mages_Initiation.001 */; };
+		836DA8F621B200C9001A2D2B /* Mages_Initiation.002 in Resources */ = {isa = PBXBuildFile; fileRef = 836DA8EC21B1FF71001A2D2B /* Mages_Initiation.002 */; };
+		836DA8F721B200C9001A2D2B /* Mages_Initiation.003 in Resources */ = {isa = PBXBuildFile; fileRef = 836DA8F021B1FF71001A2D2B /* Mages_Initiation.003 */; };
+		836DA8F821B200C9001A2D2B /* Mages_Initiation.004 in Resources */ = {isa = PBXBuildFile; fileRef = 836DA8E721B1FF70001A2D2B /* Mages_Initiation.004 */; };
+		836DA8F921B200C9001A2D2B /* Mages_Initiation.005 in Resources */ = {isa = PBXBuildFile; fileRef = 836DA8E821B1FF70001A2D2B /* Mages_Initiation.005 */; };
+		836DA8FA21B200C9001A2D2B /* Mages_Initiation.006 in Resources */ = {isa = PBXBuildFile; fileRef = 836DA8E921B1FF70001A2D2B /* Mages_Initiation.006 */; };
+		836DA8FB21B200C9001A2D2B /* Mages_Initiation.007 in Resources */ = {isa = PBXBuildFile; fileRef = 836DA8EA21B1FF70001A2D2B /* Mages_Initiation.007 */; };
+		836DA8FC21B200C9001A2D2B /* Mages_Initiation.008 in Resources */ = {isa = PBXBuildFile; fileRef = 836DA8ED21B1FF71001A2D2B /* Mages_Initiation.008 */; };
+		836DA8FD21B200C9001A2D2B /* Mages_Initiation.009 in Resources */ = {isa = PBXBuildFile; fileRef = 836DA8E621B1FF70001A2D2B /* Mages_Initiation.009 */; };
+		836DA8FE21B200C9001A2D2B /* Mages_Initiation.010 in Resources */ = {isa = PBXBuildFile; fileRef = 836DA8EE21B1FF71001A2D2B /* Mages_Initiation.010 */; };
+		836DA8FF21B200C9001A2D2B /* Mages_Initiation.011 in Resources */ = {isa = PBXBuildFile; fileRef = 836DA8EB21B1FF70001A2D2B /* Mages_Initiation.011 */; };
+		836DA90221B20B34001A2D2B /* libsteam_api.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 836DA90121B20B34001A2D2B /* libsteam_api.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		836DA90321B20CFE001A2D2B /* libsteam_api.dylib in Copy Files */ = {isa = PBXBuildFile; fileRef = 839D400A21B1AF55006D1BA0 /* libsteam_api.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		838B2B6C21B0E23600665CC7 /* steam_appid.txt in Resources */ = {isa = PBXBuildFile; fileRef = A30F906920D6B07D0085FC40 /* steam_appid.txt */; };
 		A30F903720D6AC8F0085FC40 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A30F903620D6AC8F0085FC40 /* Images.xcassets */; };
 		A30F904420D6AE630085FC40 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30F904320D6AE630085FC40 /* AudioToolbox.framework */; };
 		A30F904620D6AE630085FC40 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30F904520D6AE630085FC40 /* AudioUnit.framework */; };
@@ -41,8 +57,6 @@
 		A30F905020D6AE630085FC40 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30F904F20D6AE630085FC40 /* AppKit.framework */; };
 		A30F905220D6AE630085FC40 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30F905120D6AE630085FC40 /* Cocoa.framework */; };
 		A30F905420D6AE6C0085FC40 /* AGSKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30F905320D6AE6C0085FC40 /* AGSKit.framework */; };
-		A30F905820D6AF2F0085FC40 /* libsteam_api.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = A30F905620D6AF2F0085FC40 /* libsteam_api.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		A30F905920D6AF2F0085FC40 /* libagsteam-unified.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = A30F905720D6AF2F0085FC40 /* libagsteam-unified.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		A30F906220D6B0120085FC40 /* plugin_registration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A30F906020D6B0120085FC40 /* plugin_registration.cpp */; };
 		A30F906C20D6B07D0085FC40 /* acsetup.cfg in Resources */ = {isa = PBXBuildFile; fileRef = A30F906720D6B07D0085FC40 /* acsetup.cfg */; };
 		A30F906F20D6B07D0085FC40 /* audio.vox in Resources */ = {isa = PBXBuildFile; fileRef = A30F906A20D6B07D0085FC40 /* audio.vox */; };
@@ -63,10 +77,7 @@
 		A30F909B20D6C4590085FC40 /* audio.vox in Resources */ = {isa = PBXBuildFile; fileRef = A30F906A20D6B07D0085FC40 /* audio.vox */; };
 		A30F909F20D6C46F0085FC40 /* plugin_registration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A30F906020D6B0120085FC40 /* plugin_registration.cpp */; };
 		A30F90A120D6C4780085FC40 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A30F903B20D6AC8F0085FC40 /* Info.plist */; };
-		A30F90A720D6C4B70085FC40 /* libagsteam.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = A30F907920D6C2EF0085FC40 /* libagsteam.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		A30F90A820D6C4BA0085FC40 /* libsteam_api.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = A30F905620D6AF2F0085FC40 /* libsteam_api.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		A30F90AC20D6C72A0085FC40 /* ac2game.dat in Resources */ = {isa = PBXBuildFile; fileRef = A30F90AB20D6C72A0085FC40 /* ac2game.dat */; };
-		A30F90AD20D6C7D80085FC40 /* libagsteam.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = A30F907920D6C2EF0085FC40 /* libagsteam.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -79,16 +90,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A30F905520D6AF190085FC40 /* CopyFiles */ = {
+		836DA90021B20B1A001A2D2B /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
-			dstSubfolderSpec = 7;
+			dstSubfolderSpec = 6;
 			files = (
-				A30F90AD20D6C7D80085FC40 /* libagsteam.dylib in CopyFiles */,
-				A30F905820D6AF2F0085FC40 /* libsteam_api.dylib in CopyFiles */,
-				A30F905920D6AF2F0085FC40 /* libagsteam-unified.dylib in CopyFiles */,
+				836DA90221B20B34001A2D2B /* libsteam_api.dylib in CopyFiles */,
 			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A30F905520D6AF190085FC40 /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				836DA8E521B1FB28001A2D2B /* libagsteam.dylib in Copy Files */,
+				836DA90321B20CFE001A2D2B /* libsteam_api.dylib in Copy Files */,
+			);
+			name = "Copy Files";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		A30F90A520D6C4A20085FC40 /* CopyFiles */ = {
@@ -97,8 +118,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 7;
 			files = (
-				A30F90A720D6C4B70085FC40 /* libagsteam.dylib in CopyFiles */,
-				A30F90A820D6C4BA0085FC40 /* libsteam_api.dylib in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,11 +130,23 @@
 		14CB299320FCAFD30020633F /* Unavowed.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = Unavowed.entitlements; path = Unavowed/Unavowed.entitlements; sourceTree = "<group>"; };
 		14CB299420FD76130020633F /* Unavowed_Steam.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Unavowed_Steam.entitlements; sourceTree = "<group>"; };
 		14E15BAA20DF1993004BA193 /* Unavowed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Unavowed.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		14E15BAB20DF1994004BA193 /* Unavowed copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Unavowed copy-Info.plist"; path = "/Users/janetgilbert/Documents/ags/OSX/xcode/unavowed/Unavowed copy-Info.plist"; sourceTree = "<absolute>"; };
-		14E15BAE20DF1A2B004BA193 /* audio.vox */ = {isa = PBXFileReference; lastKnownFileType = file; name = audio.vox; path = game_files/audio.vox; sourceTree = "<group>"; };
-		14E15BAF20DF1A2B004BA193 /* ac2game.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = ac2game.dat; path = game_files/ac2game.dat; sourceTree = "<group>"; };
-		14E15BB020DF1A2B004BA193 /* speech.vox */ = {isa = PBXFileReference; lastKnownFileType = file; name = speech.vox; path = game_files/speech.vox; sourceTree = "<group>"; };
 		14E15BB820DF1CB0004BA193 /* speech.vox */ = {isa = PBXFileReference; lastKnownFileType = file; name = speech.vox; path = game_files/steam/speech.vox; sourceTree = "<group>"; };
+		836DA8E321B1FB09001A2D2B /* libagsteam.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libagsteam.dylib; sourceTree = "<group>"; };
+		836DA8E621B1FF70001A2D2B /* Mages_Initiation.009 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Mages_Initiation.009; path = game_files/steam/Mages_Initiation.009; sourceTree = "<group>"; };
+		836DA8E721B1FF70001A2D2B /* Mages_Initiation.004 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Mages_Initiation.004; path = game_files/steam/Mages_Initiation.004; sourceTree = "<group>"; };
+		836DA8E821B1FF70001A2D2B /* Mages_Initiation.005 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Mages_Initiation.005; path = game_files/steam/Mages_Initiation.005; sourceTree = "<group>"; };
+		836DA8E921B1FF70001A2D2B /* Mages_Initiation.006 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Mages_Initiation.006; path = game_files/steam/Mages_Initiation.006; sourceTree = "<group>"; };
+		836DA8EA21B1FF70001A2D2B /* Mages_Initiation.007 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Mages_Initiation.007; path = game_files/steam/Mages_Initiation.007; sourceTree = "<group>"; };
+		836DA8EB21B1FF70001A2D2B /* Mages_Initiation.011 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Mages_Initiation.011; path = game_files/steam/Mages_Initiation.011; sourceTree = "<group>"; };
+		836DA8EC21B1FF71001A2D2B /* Mages_Initiation.002 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Mages_Initiation.002; path = game_files/steam/Mages_Initiation.002; sourceTree = "<group>"; };
+		836DA8ED21B1FF71001A2D2B /* Mages_Initiation.008 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Mages_Initiation.008; path = game_files/steam/Mages_Initiation.008; sourceTree = "<group>"; };
+		836DA8EE21B1FF71001A2D2B /* Mages_Initiation.010 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Mages_Initiation.010; path = game_files/steam/Mages_Initiation.010; sourceTree = "<group>"; };
+		836DA8EF21B1FF71001A2D2B /* Mages_Initiation.001 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Mages_Initiation.001; path = game_files/steam/Mages_Initiation.001; sourceTree = "<group>"; };
+		836DA8F021B1FF71001A2D2B /* Mages_Initiation.003 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Mages_Initiation.003; path = game_files/steam/Mages_Initiation.003; sourceTree = "<group>"; };
+		836DA8F121B1FF8B001A2D2B /* Resource001.him */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Resource001.him; path = game_files/steam/Resource001.him; sourceTree = "<group>"; };
+		836DA8F221B1FF8B001A2D2B /* Resource002.him */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Resource002.him; path = game_files/steam/Resource002.him; sourceTree = "<group>"; };
+		836DA90121B20B34001A2D2B /* libsteam_api.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libsteam_api.dylib; sourceTree = "<group>"; };
+		839D400A21B1AF55006D1BA0 /* libsteam_api.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsteam_api.dylib; path = ../../../../SteamWorksSDK/redistributable_bin/osx32/libsteam_api.dylib; sourceTree = "<group>"; };
 		A30F903120D6AC740085FC40 /* Unavowed_Steam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Unavowed_Steam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A30F903620D6AC8F0085FC40 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Unavowed/Images.xcassets; sourceTree = "<group>"; };
 		A30F903B20D6AC8F0085FC40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -128,8 +159,6 @@
 		A30F904F20D6AE630085FC40 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		A30F905120D6AE630085FC40 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		A30F905320D6AE6C0085FC40 /* AGSKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AGSKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A30F905620D6AF2F0085FC40 /* libsteam_api.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsteam_api.dylib; path = ../../lib/plugin/libsteam_api.dylib; sourceTree = "<group>"; };
-		A30F905720D6AF2F0085FC40 /* libagsteam-unified.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libagsteam-unified.dylib"; path = "../../lib/plugin/libagsteam-unified.dylib"; sourceTree = "<group>"; };
 		A30F905E20D6AF9E0085FC40 /* plugin_engine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = plugin_engine.h; path = ../../../Engine/plugin/plugin_engine.h; sourceTree = "<group>"; };
 		A30F905F20D6AF9F0085FC40 /* agsplugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = agsplugin.h; path = ../../../Engine/plugin/agsplugin.h; sourceTree = "<group>"; };
 		A30F906020D6B0120085FC40 /* plugin_registration.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = plugin_registration.cpp; path = ../wadjetcommon/plugin_registration.cpp; sourceTree = "<group>"; };
@@ -139,7 +168,6 @@
 		A30F906A20D6B07D0085FC40 /* audio.vox */ = {isa = PBXFileReference; lastKnownFileType = file; name = audio.vox; path = game_files/steam/audio.vox; sourceTree = "<group>"; };
 		A30F907120D6B1040085FC40 /* libbz2.1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libbz2.1.0.dylib; path = "/Users/monkey0506/janetg-ags/OSX/xcode/AGSKit/../../../../../../../../usr/lib/libbz2.1.0.dylib"; sourceTree = "<absolute>"; };
 		A30F907320D6B1070085FC40 /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = "/Users/monkey0506/janetg-ags/OSX/xcode/AGSKit/../../../../../../../../usr/lib/libz.1.dylib"; sourceTree = "<absolute>"; };
-		A30F907920D6C2EF0085FC40 /* libagsteam.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libagsteam.dylib; path = ../../lib/plugin/libagsteam.dylib; sourceTree = "<group>"; };
 		A30F907F20D6C3FA0085FC40 /* Unavowed-cheat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Unavowed-cheat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A30F90AB20D6C72A0085FC40 /* ac2game.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = ac2game.dat; path = game_files/steam/ac2game.dat; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -168,6 +196,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A30F907220D6B1040085FC40 /* libbz2.1.0.dylib in Frameworks */,
+				836DA8C521B1B313001A2D2B /* libsteam_api.dylib in Frameworks */,
+				836DA8E421B1FB0A001A2D2B /* libagsteam.dylib in Frameworks */,
 				A30F907420D6B1070085FC40 /* libz.1.dylib in Frameworks */,
 				A30F904420D6AE630085FC40 /* AudioToolbox.framework in Frameworks */,
 				A30F904620D6AE630085FC40 /* AudioUnit.framework in Frameworks */,
@@ -205,6 +235,19 @@
 		14E15BB420DF1A4F004BA193 /* game_files_steam */ = {
 			isa = PBXGroup;
 			children = (
+				836DA8EF21B1FF71001A2D2B /* Mages_Initiation.001 */,
+				836DA8EC21B1FF71001A2D2B /* Mages_Initiation.002 */,
+				836DA8F021B1FF71001A2D2B /* Mages_Initiation.003 */,
+				836DA8E721B1FF70001A2D2B /* Mages_Initiation.004 */,
+				836DA8E821B1FF70001A2D2B /* Mages_Initiation.005 */,
+				836DA8E921B1FF70001A2D2B /* Mages_Initiation.006 */,
+				836DA8EA21B1FF70001A2D2B /* Mages_Initiation.007 */,
+				836DA8ED21B1FF71001A2D2B /* Mages_Initiation.008 */,
+				836DA8E621B1FF70001A2D2B /* Mages_Initiation.009 */,
+				836DA8EE21B1FF71001A2D2B /* Mages_Initiation.010 */,
+				836DA8EB21B1FF70001A2D2B /* Mages_Initiation.011 */,
+				836DA8F121B1FF8B001A2D2B /* Resource001.him */,
+				836DA8F221B1FF8B001A2D2B /* Resource002.him */,
 				14E15BB820DF1CB0004BA193 /* speech.vox */,
 				A30F906A20D6B07D0085FC40 /* audio.vox */,
 				A30F90AB20D6C72A0085FC40 /* ac2game.dat */,
@@ -215,12 +258,12 @@
 		A30F902820D6AC740085FC40 = {
 			isa = PBXGroup;
 			children = (
+				836DA90121B20B34001A2D2B /* libsteam_api.dylib */,
 				14CB299420FD76130020633F /* Unavowed_Steam.entitlements */,
 				A30F906520D6B06E0085FC40 /* game_files */,
 				A30F903320D6AC740085FC40 /* Unavowed */,
 				A30F903220D6AC740085FC40 /* Products */,
 				A30F904220D6AE630085FC40 /* Frameworks */,
-				14E15BAB20DF1994004BA193 /* Unavowed copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -250,11 +293,10 @@
 		A30F904220D6AE630085FC40 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A30F907920D6C2EF0085FC40 /* libagsteam.dylib */,
 				A30F907120D6B1040085FC40 /* libbz2.1.0.dylib */,
+				836DA8E321B1FB09001A2D2B /* libagsteam.dylib */,
 				A30F907320D6B1070085FC40 /* libz.1.dylib */,
-				A30F905720D6AF2F0085FC40 /* libagsteam-unified.dylib */,
-				A30F905620D6AF2F0085FC40 /* libsteam_api.dylib */,
+				839D400A21B1AF55006D1BA0 /* libsteam_api.dylib */,
 				A30F904320D6AE630085FC40 /* AudioToolbox.framework */,
 				A30F904520D6AE630085FC40 /* AudioUnit.framework */,
 				A30F904720D6AE630085FC40 /* CoreAudio.framework */,
@@ -290,9 +332,6 @@
 		A30F906520D6B06E0085FC40 /* game_files */ = {
 			isa = PBXGroup;
 			children = (
-				14E15BAF20DF1A2B004BA193 /* ac2game.dat */,
-				14E15BAE20DF1A2B004BA193 /* audio.vox */,
-				14E15BB020DF1A2B004BA193 /* speech.vox */,
 				14E15BB420DF1A4F004BA193 /* game_files_steam */,
 				A30F906720D6B07D0085FC40 /* acsetup.cfg */,
 				A30F906920D6B07D0085FC40 /* steam_appid.txt */,
@@ -337,7 +376,8 @@
 				A30F902D20D6AC740085FC40 /* Sources */,
 				A30F902E20D6AC740085FC40 /* Frameworks */,
 				A30F902F20D6AC740085FC40 /* Resources */,
-				A30F905520D6AF190085FC40 /* CopyFiles */,
+				A30F905520D6AF190085FC40 /* Copy Files */,
+				836DA90021B20B1A001A2D2B /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -420,9 +460,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14E15BB120DF1A2B004BA193 /* audio.vox in Resources */,
-				14E15BB220DF1A2B004BA193 /* ac2game.dat in Resources */,
-				14E15BB320DF1A2B004BA193 /* speech.vox in Resources */,
 				14E15B9F20DF1993004BA193 /* Images.xcassets in Resources */,
 				14E15BA020DF1993004BA193 /* acsetup.cfg in Resources */,
 				14E15BA220DF1993004BA193 /* MainMenu.xib in Resources */,
@@ -434,11 +471,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				A30F90AC20D6C72A0085FC40 /* ac2game.dat in Resources */,
+				836DA8F921B200C9001A2D2B /* Mages_Initiation.005 in Resources */,
 				A30F906F20D6B07D0085FC40 /* audio.vox in Resources */,
 				A30F903720D6AC8F0085FC40 /* Images.xcassets in Resources */,
+				836DA8F521B200C9001A2D2B /* Mages_Initiation.001 in Resources */,
+				836DA8FD21B200C9001A2D2B /* Mages_Initiation.009 in Resources */,
 				A30F906C20D6B07D0085FC40 /* acsetup.cfg in Resources */,
+				836DA8F821B200C9001A2D2B /* Mages_Initiation.004 in Resources */,
+				836DA8F721B200C9001A2D2B /* Mages_Initiation.003 in Resources */,
+				836DA8FA21B200C9001A2D2B /* Mages_Initiation.006 in Resources */,
+				836DA8F321B1FF8B001A2D2B /* Resource001.him in Resources */,
+				836DA8F421B1FF8B001A2D2B /* Resource002.him in Resources */,
+				836DA8FF21B200C9001A2D2B /* Mages_Initiation.011 in Resources */,
 				1444B1AC20D7463100A31ACB /* MainMenu.xib in Resources */,
+				836DA8F621B200C9001A2D2B /* Mages_Initiation.002 in Resources */,
+				836DA8FB21B200C9001A2D2B /* Mages_Initiation.007 in Resources */,
+				836DA8FE21B200C9001A2D2B /* Mages_Initiation.010 in Resources */,
+				838B2B6C21B0E23600665CC7 /* steam_appid.txt in Resources */,
 				14E15BB920DF1CB0004BA193 /* speech.vox in Resources */,
+				836DA8FC21B200C9001A2D2B /* Mages_Initiation.008 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -590,12 +641,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
@@ -644,11 +696,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
 		};
@@ -656,25 +709,33 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 69P49K3LPW;
+				DEVELOPMENT_TEAM = "";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					BUILTIN_PLUGINS,
 					MAC_VERSION,
 					"DEBUG=1",
 				);
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					$SRCROOT/../../../../SteamWorksSDK/redistributable_bin/osx32/,
+					"$(PROJECT_DIR)",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.wadjeteyegames.mac.Unavowed;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
+				SYSTEM_HEADER_SEARCH_PATHS = "";
+				USER_HEADER_SEARCH_PATHS = $SRCROOT/../../../../SteamWorksSDK/public;
 			};
 			name = Debug;
 		};
@@ -682,24 +743,32 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 69P49K3LPW;
+				DEVELOPMENT_TEAM = "";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					BUILTIN_PLUGINS,
 					MAC_VERSION,
 				);
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					$SRCROOT/../../../../SteamWorksSDK/redistributable_bin/osx32/,
+					"$(PROJECT_DIR)",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.wadjeteyegames.mac.Unavowed;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
+				SYSTEM_HEADER_SEARCH_PATHS = "";
+				USER_HEADER_SEARCH_PATHS = $SRCROOT/../../../../SteamWorksSDK/public;
 			};
 			name = Release;
 		};

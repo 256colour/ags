@@ -34,7 +34,7 @@
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
-			dstSubfolderSpec = 7;
+			dstSubfolderSpec = 10;
 			files = (
 				149CD98620CE100B004E2194 /* libagsteam.dylib in CopyFiles */,
 				149CD98420CE0FC0004E2194 /* libsteam_api.dylib in CopyFiles */,
@@ -48,6 +48,7 @@
 		149CD98120CE0FC0004E2194 /* libagsteam-unified.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libagsteam-unified.dylib"; path = "../../lib/plugin/libagsteam-unified.dylib"; sourceTree = "<group>"; };
 		149CD98220CE0FC0004E2194 /* libsteam_api.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsteam_api.dylib; path = ../../lib/plugin/libsteam_api.dylib; sourceTree = "<group>"; };
 		149CD98520CE100A004E2194 /* libagsteam.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libagsteam.dylib; path = ../../lib/plugin/libagsteam.dylib; sourceTree = "<group>"; };
+		838B2B6E21B0E4A000665CC7 /* libsteam_api.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsteam_api.dylib; path = agsteamtest/libsteam_api.dylib; sourceTree = "<group>"; };
 		A3CA13AC20C94CE500D49491 /* Steamworks.ags */ = {isa = PBXFileReference; lastKnownFileType = file; name = Steamworks.ags; path = game/Steamworks.ags; sourceTree = SOURCE_ROOT; };
 		A3F2DD4C20C93B4F008F9811 /* agsteamtest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = agsteamtest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3F2DD5120C93B50008F9811 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -72,7 +73,7 @@
 		A3F2DD9620C93EF1008F9811 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 		A3F2DD9720C93EF1008F9811 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		A3F2DD9820C93EF2008F9811 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
-		A3F2DDA420C93F76008F9811 /* libsteam_api.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsteam_api.dylib; path = ../../../../../steamworks/142/sdk/redistributable_bin/osx32/libsteam_api.dylib; sourceTree = "<group>"; };
+		A3F2DDA420C93F76008F9811 /* libsteam_api.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsteam_api.dylib; path = ../../../../../SteamWorksSDK/redistributable_bin/osx32/libsteam_api.dylib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +181,7 @@
 		A3F2DD7120C93E42008F9811 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				838B2B6E21B0E4A000665CC7 /* libsteam_api.dylib */,
 				A3F2DD8E20C93EDF008F9811 /* System Frameworks */,
 				A3F2DD7220C93E42008F9811 /* AGSKit.framework */,
 			);
@@ -429,6 +431,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/game",
+					"$(PROJECT_DIR)/agsteamtest",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.monkeymoto.agsteamtest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -453,6 +456,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/game",
+					"$(PROJECT_DIR)/agsteamtest",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.monkeymoto.agsteamtest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
