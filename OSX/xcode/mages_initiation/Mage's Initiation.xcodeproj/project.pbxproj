@@ -98,7 +98,7 @@
 		1444B1AB20D7463100A31ACB /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
 		14CB299320FCAFD30020633F /* Mages_Initiation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Mages_Initiation.entitlements; sourceTree = "<group>"; };
 		14CB299420FD76130020633F /* Mages_Initiation_Steam.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Mages_Initiation_Steam.entitlements; sourceTree = "<group>"; };
-		14E15BAA20DF1993004BA193 /* MageInitiation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MageInitiation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14E15BAA20DF1993004BA193 /* MagesInitiation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagesInitiation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14E15BB820DF1CB0004BA193 /* speech.vox */ = {isa = PBXFileReference; lastKnownFileType = file; name = speech.vox; path = game_files/steam/speech.vox; sourceTree = "<group>"; };
 		836DA8E321B1FB09001A2D2B /* libagsteam.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libagsteam.dylib; sourceTree = "<group>"; };
 		836DA8E621B1FF70001A2D2B /* Mages_Initiation.009 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Mages_Initiation.009; path = game_files/steam/Mages_Initiation.009; sourceTree = "<group>"; };
@@ -120,7 +120,7 @@
 		83FF9EBF21B6F33A00535532 /* plugin_engine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = plugin_engine.h; path = ../../../Engine/plugin/plugin_engine.h; sourceTree = "<group>"; };
 		83FF9EC021B6F35800535532 /* plugin_registration.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = plugin_registration.hpp; path = ../wadjetcommon/plugin_registration.hpp; sourceTree = "<group>"; };
 		83FF9EC121B6F35800535532 /* plugin_registration.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = plugin_registration.cpp; path = ../wadjetcommon/plugin_registration.cpp; sourceTree = "<group>"; };
-		A30F903120D6AC740085FC40 /* MagesInitiation-Steam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MagesInitiation-Steam.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A30F903120D6AC740085FC40 /* Mage's Initiation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mage's Initiation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A30F903620D6AC8F0085FC40 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A30F903B20D6AC8F0085FC40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A30F904320D6AE630085FC40 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -232,8 +232,8 @@
 		A30F903220D6AC740085FC40 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A30F903120D6AC740085FC40 /* MagesInitiation-Steam.app */,
-				14E15BAA20DF1993004BA193 /* MageInitiation.app */,
+				A30F903120D6AC740085FC40 /* Mage's Initiation.app */,
+				14E15BAA20DF1993004BA193 /* MagesInitiation.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -282,9 +282,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		14E15B8C20DF1993004BA193 /* MageInitiation */ = {
+		14E15B8C20DF1993004BA193 /* MagesInitiation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 14E15BA720DF1993004BA193 /* Build configuration list for PBXNativeTarget "MageInitiation" */;
+			buildConfigurationList = 14E15BA720DF1993004BA193 /* Build configuration list for PBXNativeTarget "MagesInitiation" */;
 			buildPhases = (
 				14E15B8D20DF1993004BA193 /* Sources */,
 				14E15B9020DF1993004BA193 /* Frameworks */,
@@ -295,14 +295,14 @@
 			);
 			dependencies = (
 			);
-			name = MageInitiation;
+			name = MagesInitiation;
 			productName = Unsteamvowed;
-			productReference = 14E15BAA20DF1993004BA193 /* MageInitiation.app */;
+			productReference = 14E15BAA20DF1993004BA193 /* MagesInitiation.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A30F903020D6AC740085FC40 /* MagesInitiation-Steam */ = {
+		A30F903020D6AC740085FC40 /* Mage's Initiation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A30F903F20D6AC8F0085FC40 /* Build configuration list for PBXNativeTarget "MagesInitiation-Steam" */;
+			buildConfigurationList = A30F903F20D6AC8F0085FC40 /* Build configuration list for PBXNativeTarget "Mage's Initiation" */;
 			buildPhases = (
 				A30F902D20D6AC740085FC40 /* Sources */,
 				A30F902E20D6AC740085FC40 /* Frameworks */,
@@ -314,9 +314,9 @@
 			);
 			dependencies = (
 			);
-			name = "MagesInitiation-Steam";
+			name = "Mage's Initiation";
 			productName = Unsteamvowed;
-			productReference = A30F903120D6AC740085FC40 /* MagesInitiation-Steam.app */;
+			productReference = A30F903120D6AC740085FC40 /* Mage's Initiation.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -358,8 +358,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A30F903020D6AC740085FC40 /* MagesInitiation-Steam */,
-				14E15B8C20DF1993004BA193 /* MageInitiation */,
+				A30F903020D6AC740085FC40 /* Mage's Initiation */,
+				14E15B8C20DF1993004BA193 /* MagesInitiation */,
 			);
 		};
 /* End PBXProject section */
@@ -427,23 +427,23 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = Unavowed/Mages_Initiation.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Mages_Initiation.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 69P49K3LPW;
+				DEVELOPMENT_TEAM = Y3867YPTW6;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					BUILTIN_PLUGINS,
 					MAC_VERSION,
 					"DEBUG=1",
 				);
-				INFOPLIST_FILE = "Unavowed copy-Info.plist";
+				INFOPLIST_FILE = Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tinyredstudio.mac.MagesInitiation;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.himalayastudios.mac.magesinitiation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
@@ -454,22 +454,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = Unavowed/Mages_Initiation.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Mages_Initiation.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 69P49K3LPW;
+				DEVELOPMENT_TEAM = Y3867YPTW6;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					BUILTIN_PLUGINS,
 					MAC_VERSION,
 				);
-				INFOPLIST_FILE = "Unavowed copy-Info.plist";
+				INFOPLIST_FILE = Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tinyredstudio.mac.MagesInitiation;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.himalayastudios.mac.magesinitiation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
@@ -595,10 +595,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = ZW38LFUBDT;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					BUILTIN_PLUGINS,
 					MAC_VERSION,
@@ -616,7 +616,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tinyredstudio.com.mac.MagesInitiation;
+				PRODUCT_BUNDLE_IDENTIFIER = com.himalayastudios.mac.magesinitiation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
@@ -629,10 +629,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = Y3867YPTW6;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					BUILTIN_PLUGINS,
 					MAC_VERSION,
@@ -649,7 +649,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tinyredstudio.com.mac.MagesInitiation;
+				PRODUCT_BUNDLE_IDENTIFIER = com.himalayastudios.mac.magesinitiation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
@@ -661,7 +661,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		14E15BA720DF1993004BA193 /* Build configuration list for PBXNativeTarget "MageInitiation" */ = {
+		14E15BA720DF1993004BA193 /* Build configuration list for PBXNativeTarget "MagesInitiation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				14E15BA820DF1993004BA193 /* Debug */,
@@ -679,7 +679,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A30F903F20D6AC8F0085FC40 /* Build configuration list for PBXNativeTarget "MagesInitiation-Steam" */ = {
+		A30F903F20D6AC8F0085FC40 /* Build configuration list for PBXNativeTarget "Mage's Initiation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A30F904020D6AC8F0085FC40 /* Debug */,
