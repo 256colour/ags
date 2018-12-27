@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>MagesInitiation_Steam</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>x86_64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>42E698C2F755D202C0D4AFA43542CFCEA980F412</string>
+				<key>dateExpires</key>
+				<string>2023-12-12</string>
+				<key>type</key>
+				<string>Developer ID Application</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>x86_64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>42E698C2F755D202C0D4AFA43542CFCEA980F412</string>
+						<key>dateExpires</key>
+						<string>2023-12-12</string>
+						<key>type</key>
+						<string>Developer ID Application</string>
+					</dict>
+					<key>name</key>
+					<string>libagsteam.dylib</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>Y3867YPTW6</string>
+						<key>name</key>
+						<string>Himalaya Studios Inc.</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>i386</string>
+						<string>x86_64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>42E698C2F755D202C0D4AFA43542CFCEA980F412</string>
+						<key>dateExpires</key>
+						<string>2023-12-12</string>
+						<key>type</key>
+						<string>Developer ID Application</string>
+					</dict>
+					<key>name</key>
+					<string>libsteam_api.dylib</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>Y3867YPTW6</string>
+						<key>name</key>
+						<string>Himalaya Studios Inc.</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>i386</string>
+						<string>x86_64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>42E698C2F755D202C0D4AFA43542CFCEA980F412</string>
+						<key>dateExpires</key>
+						<string>2023-12-12</string>
+						<key>type</key>
+						<string>Developer ID Application</string>
+					</dict>
+					<key>name</key>
+					<string>libsteam_api.dylib</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>Y3867YPTW6</string>
+						<key>name</key>
+						<string>Himalaya Studios Inc.</string>
+					</dict>
+				</dict>
+			</array>
+			<key>name</key>
+			<string>Mage's Initiation.app</string>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>Y3867YPTW6</string>
+				<key>name</key>
+				<string>Himalaya Studios Inc.</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
