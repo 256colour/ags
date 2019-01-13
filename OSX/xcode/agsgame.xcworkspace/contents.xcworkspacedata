@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:ags_game/AGS_Game.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/chris/Projects/AGSteamFramework/AGSteam/AGSteam.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:AGSKit/AGSKit.xcodeproj">
+   </FileRef>
+</Workspace>
