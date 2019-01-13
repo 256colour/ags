@@ -2,36 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:mages_initiation/Mage&apos;s Initiation.xcodeproj">
+      location = "group:/Users/chris/Projects/AGS Mac 3.4 Public Repo/OSX/xcode/mages_initiation/AGS_Game.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:/Users/chris/Projects/AGSteamFramework/AGSteam/AGSteam.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:unavowed/Unavowed.xcodeproj">
-   </FileRef>
-   <FileRef
       location = "group:AGSKit/AGSKit.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:convergence/Convergence.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:golden_wake/GoldenWake.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:agsteamtest/agsteamtest.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:legacy/Legacy.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:primordia/Primordia.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:shivah/Shivah.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:unbound/Unbound.xcodeproj">
    </FileRef>
 </Workspace>

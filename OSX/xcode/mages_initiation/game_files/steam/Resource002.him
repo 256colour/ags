@@ -86,20 +86,11 @@
 +Documentation Writer
 ~Daniel Stacey
 ~ 
-+Manual Design
-~To be Announced
-~   
 +Steam Integration
 ~Michael Rittenhouse
 ~ 
 +Mac & Linux Ports
 ~Tiny Red Studio
-~
-+iOS Port
-~To be Announced
-~ 
-+Android Port
-~To be Announced
 ~ 
 +Cast
 ~D'arc - Kenny K
@@ -151,6 +142,7 @@
 ~ 
 +Beta Testers
 ~Ariane
+~Brandon Warren
 ~C Griffin
 ~Carlos Hoyos Barceló
 ~Christania
@@ -185,9 +177,11 @@
 ~CrimsonWizard
 ~Dave Gilbert
 ~Benjamin Penney
-~All the Kickstarter & PayPal backers who made this game possible
 ~ 
-+Kickstarter Backers
+~All the Kickstarter & PayPal backers
+~who made this game possible
+~ 
++Project Backers
 ~A. E. Curlik
 ~Aaron Kulick
 ~Aaron Light
@@ -953,13 +947,13 @@
 ~
 ~ 
 ~Mage's Initiation is linked with the OggVorbis SDK,
-~copyright © 2018 Xiph.org Foundation
+~copyright © 2019 Xiph.org Foundation
 ~ 
 ~ 
 =17768
 ~ 
 ~Mage's Initiation: Reign of the Elements
-~Copyright © 2018 Himalaya Studios, Inc.
+~Copyright © 2019 Himalaya Studios, Inc.
 ~ 
 ~ 
 ~ 

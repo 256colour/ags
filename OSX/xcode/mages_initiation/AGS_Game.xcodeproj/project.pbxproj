@@ -7,10 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1444B1A920D744AF00A31ACB /* agswadjetutil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1444B1A820D744AF00A31ACB /* agswadjetutil.cpp */; };
 		1444B1AC20D7463100A31ACB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1444B1AB20D7463100A31ACB /* MainMenu.xib */; };
-		14E15B8E20DF1993004BA193 /* agswadjetutil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1444B1A820D744AF00A31ACB /* agswadjetutil.cpp */; };
-		14E15B8F20DF1993004BA193 /* plugin_registration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A30F906020D6B0120085FC40 /* plugin_registration.cpp */; };
 		14E15B9120DF1993004BA193 /* libbz2.1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A30F907120D6B1040085FC40 /* libbz2.1.0.dylib */; };
 		14E15B9220DF1993004BA193 /* libz.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A30F907320D6B1070085FC40 /* libz.1.dylib */; };
 		14E15B9320DF1993004BA193 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30F904320D6AE630085FC40 /* AudioToolbox.framework */; };
@@ -23,11 +20,9 @@
 		14E15B9A20DF1993004BA193 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30F905120D6AE630085FC40 /* Cocoa.framework */; };
 		14E15B9B20DF1993004BA193 /* AGSKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30F905320D6AE6C0085FC40 /* AGSKit.framework */; };
 		14E15B9F20DF1993004BA193 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A30F903620D6AC8F0085FC40 /* Images.xcassets */; };
-		14E15BA020DF1993004BA193 /* acsetup.cfg in Resources */ = {isa = PBXBuildFile; fileRef = A30F906720D6B07D0085FC40 /* acsetup.cfg */; };
 		14E15BA220DF1993004BA193 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1444B1AB20D7463100A31ACB /* MainMenu.xib */; };
-		14E15BB520DF1A9F004BA193 /* ac2game.dat in Resources */ = {isa = PBXBuildFile; fileRef = A30F90AB20D6C72A0085FC40 /* ac2game.dat */; };
 		14E15BB920DF1CB0004BA193 /* speech.vox in Resources */ = {isa = PBXBuildFile; fileRef = 14E15BB820DF1CB0004BA193 /* speech.vox */; };
-		14E15BBA20DF1CB8004BA193 /* speech.vox in Resources */ = {isa = PBXBuildFile; fileRef = 14E15BB820DF1CB0004BA193 /* speech.vox */; };
+		831439F021E59E360014589E /* acsetup.cfg in Resources */ = {isa = PBXBuildFile; fileRef = 831439EF21E59E360014589E /* acsetup.cfg */; };
 		836DA8C521B1B313001A2D2B /* libsteam_api.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 839D400A21B1AF55006D1BA0 /* libsteam_api.dylib */; };
 		836DA8E421B1FB0A001A2D2B /* libagsteam.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 836DA8E321B1FB09001A2D2B /* libagsteam.dylib */; };
 		836DA8E521B1FB28001A2D2B /* libagsteam.dylib in Copy Files */ = {isa = PBXBuildFile; fileRef = 836DA8E321B1FB09001A2D2B /* libagsteam.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
@@ -47,6 +42,7 @@
 		836DA90221B20B34001A2D2B /* libsteam_api.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 836DA90121B20B34001A2D2B /* libsteam_api.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		836DA90321B20CFE001A2D2B /* libsteam_api.dylib in Copy Files */ = {isa = PBXBuildFile; fileRef = 839D400A21B1AF55006D1BA0 /* libsteam_api.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		838B2B6C21B0E23600665CC7 /* steam_appid.txt in Resources */ = {isa = PBXBuildFile; fileRef = A30F906920D6B07D0085FC40 /* steam_appid.txt */; };
+		83FF9EC221B6F35900535532 /* plugin_registration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83FF9EC121B6F35800535532 /* plugin_registration.cpp */; };
 		A30F903720D6AC8F0085FC40 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A30F903620D6AC8F0085FC40 /* Images.xcassets */; };
 		A30F904420D6AE630085FC40 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30F904320D6AE630085FC40 /* AudioToolbox.framework */; };
 		A30F904620D6AE630085FC40 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30F904520D6AE630085FC40 /* AudioUnit.framework */; };
@@ -57,26 +53,9 @@
 		A30F905020D6AE630085FC40 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30F904F20D6AE630085FC40 /* AppKit.framework */; };
 		A30F905220D6AE630085FC40 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30F905120D6AE630085FC40 /* Cocoa.framework */; };
 		A30F905420D6AE6C0085FC40 /* AGSKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30F905320D6AE6C0085FC40 /* AGSKit.framework */; };
-		A30F906220D6B0120085FC40 /* plugin_registration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A30F906020D6B0120085FC40 /* plugin_registration.cpp */; };
-		A30F906C20D6B07D0085FC40 /* acsetup.cfg in Resources */ = {isa = PBXBuildFile; fileRef = A30F906720D6B07D0085FC40 /* acsetup.cfg */; };
 		A30F906F20D6B07D0085FC40 /* audio.vox in Resources */ = {isa = PBXBuildFile; fileRef = A30F906A20D6B07D0085FC40 /* audio.vox */; };
 		A30F907220D6B1040085FC40 /* libbz2.1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A30F907120D6B1040085FC40 /* libbz2.1.0.dylib */; };
 		A30F907420D6B1070085FC40 /* libz.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A30F907320D6B1070085FC40 /* libz.1.dylib */; };
-		A30F908E20D6C4260085FC40 /* libbz2.1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A30F907120D6B1040085FC40 /* libbz2.1.0.dylib */; };
-		A30F908F20D6C4260085FC40 /* libz.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A30F907320D6B1070085FC40 /* libz.1.dylib */; };
-		A30F909120D6C4260085FC40 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30F904320D6AE630085FC40 /* AudioToolbox.framework */; };
-		A30F909220D6C4260085FC40 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30F904520D6AE630085FC40 /* AudioUnit.framework */; };
-		A30F909320D6C4260085FC40 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30F904720D6AE630085FC40 /* CoreAudio.framework */; };
-		A30F909420D6C4260085FC40 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30F904920D6AE630085FC40 /* IOKit.framework */; };
-		A30F909520D6C4260085FC40 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30F904B20D6AE630085FC40 /* CoreVideo.framework */; };
-		A30F909620D6C4260085FC40 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30F904D20D6AE630085FC40 /* OpenGL.framework */; };
-		A30F909720D6C4260085FC40 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30F904F20D6AE630085FC40 /* AppKit.framework */; };
-		A30F909820D6C4260085FC40 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30F905120D6AE630085FC40 /* Cocoa.framework */; };
-		A30F909920D6C4260085FC40 /* AGSKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30F905320D6AE6C0085FC40 /* AGSKit.framework */; };
-		A30F909A20D6C4560085FC40 /* acsetup.cfg in Resources */ = {isa = PBXBuildFile; fileRef = A30F906720D6B07D0085FC40 /* acsetup.cfg */; };
-		A30F909B20D6C4590085FC40 /* audio.vox in Resources */ = {isa = PBXBuildFile; fileRef = A30F906A20D6B07D0085FC40 /* audio.vox */; };
-		A30F909F20D6C46F0085FC40 /* plugin_registration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A30F906020D6B0120085FC40 /* plugin_registration.cpp */; };
-		A30F90A120D6C4780085FC40 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A30F903B20D6AC8F0085FC40 /* Info.plist */; };
 		A30F90AC20D6C72A0085FC40 /* ac2game.dat in Resources */ = {isa = PBXBuildFile; fileRef = A30F90AB20D6C72A0085FC40 /* ac2game.dat */; };
 /* End PBXBuildFile section */
 
@@ -112,25 +91,15 @@
 			name = "Copy Files";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A30F90A520D6C4A20085FC40 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 7;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1444B1A820D744AF00A31ACB /* agswadjetutil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = agswadjetutil.cpp; path = ../../../Plugins/agswadjetutil/agswadjetutil.cpp; sourceTree = "<group>"; };
-		1444B1AA20D744BD00A31ACB /* agswadjetutil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = agswadjetutil.h; path = ../../../Plugins/agswadjetutil/agswadjetutil.h; sourceTree = "<group>"; };
 		1444B1AB20D7463100A31ACB /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
-		14CB299320FCAFD30020633F /* Unavowed.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = Unavowed.entitlements; path = Unavowed/Unavowed.entitlements; sourceTree = "<group>"; };
-		14CB299420FD76130020633F /* Unavowed_Steam.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Unavowed_Steam.entitlements; sourceTree = "<group>"; };
-		14E15BAA20DF1993004BA193 /* Unavowed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Unavowed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14CB299320FCAFD30020633F /* Mages_Initiation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Mages_Initiation.entitlements; sourceTree = "<group>"; };
+		14CB299420FD76130020633F /* Mages_Initiation_Steam.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Mages_Initiation_Steam.entitlements; sourceTree = "<group>"; };
+		14E15BAA20DF1993004BA193 /* MagesInitiation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagesInitiation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14E15BB820DF1CB0004BA193 /* speech.vox */ = {isa = PBXFileReference; lastKnownFileType = file; name = speech.vox; path = game_files/steam/speech.vox; sourceTree = "<group>"; };
+		831439EF21E59E360014589E /* acsetup.cfg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = acsetup.cfg; path = game_files/steam/acsetup.cfg; sourceTree = "<group>"; };
 		836DA8E321B1FB09001A2D2B /* libagsteam.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libagsteam.dylib; sourceTree = "<group>"; };
 		836DA8E621B1FF70001A2D2B /* Mages_Initiation.009 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Mages_Initiation.009; path = game_files/steam/Mages_Initiation.009; sourceTree = "<group>"; };
 		836DA8E721B1FF70001A2D2B /* Mages_Initiation.004 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Mages_Initiation.004; path = game_files/steam/Mages_Initiation.004; sourceTree = "<group>"; };
@@ -147,8 +116,12 @@
 		836DA8F221B1FF8B001A2D2B /* Resource002.him */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Resource002.him; path = game_files/steam/Resource002.him; sourceTree = "<group>"; };
 		836DA90121B20B34001A2D2B /* libsteam_api.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libsteam_api.dylib; sourceTree = "<group>"; };
 		839D400A21B1AF55006D1BA0 /* libsteam_api.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsteam_api.dylib; path = ../../../../SteamWorksSDK/redistributable_bin/osx32/libsteam_api.dylib; sourceTree = "<group>"; };
-		A30F903120D6AC740085FC40 /* Unavowed_Steam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Unavowed_Steam.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A30F903620D6AC8F0085FC40 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Unavowed/Images.xcassets; sourceTree = "<group>"; };
+		83FF9EBE21B6F33200535532 /* agsplugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = agsplugin.h; path = ../../../Engine/plugin/agsplugin.h; sourceTree = "<group>"; };
+		83FF9EBF21B6F33A00535532 /* plugin_engine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = plugin_engine.h; path = ../../../Engine/plugin/plugin_engine.h; sourceTree = "<group>"; };
+		83FF9EC021B6F35800535532 /* plugin_registration.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = plugin_registration.hpp; path = ../wadjetcommon/plugin_registration.hpp; sourceTree = "<group>"; };
+		83FF9EC121B6F35800535532 /* plugin_registration.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = plugin_registration.cpp; path = ../wadjetcommon/plugin_registration.cpp; sourceTree = "<group>"; };
+		A30F903120D6AC740085FC40 /* AGS_Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AGS_Game.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A30F903620D6AC8F0085FC40 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A30F903B20D6AC8F0085FC40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A30F904320D6AE630085FC40 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		A30F904520D6AE630085FC40 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
@@ -159,16 +132,10 @@
 		A30F904F20D6AE630085FC40 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		A30F905120D6AE630085FC40 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		A30F905320D6AE6C0085FC40 /* AGSKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AGSKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A30F905E20D6AF9E0085FC40 /* plugin_engine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = plugin_engine.h; path = ../../../Engine/plugin/plugin_engine.h; sourceTree = "<group>"; };
-		A30F905F20D6AF9F0085FC40 /* agsplugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = agsplugin.h; path = ../../../Engine/plugin/agsplugin.h; sourceTree = "<group>"; };
-		A30F906020D6B0120085FC40 /* plugin_registration.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = plugin_registration.cpp; path = ../wadjetcommon/plugin_registration.cpp; sourceTree = "<group>"; };
-		A30F906120D6B0120085FC40 /* plugin_registration.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = plugin_registration.hpp; path = ../wadjetcommon/plugin_registration.hpp; sourceTree = "<group>"; };
-		A30F906720D6B07D0085FC40 /* acsetup.cfg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = acsetup.cfg; path = game_files/acsetup.cfg; sourceTree = "<group>"; };
 		A30F906920D6B07D0085FC40 /* steam_appid.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = steam_appid.txt; path = game_files/steam/steam_appid.txt; sourceTree = "<group>"; };
 		A30F906A20D6B07D0085FC40 /* audio.vox */ = {isa = PBXFileReference; lastKnownFileType = file; name = audio.vox; path = game_files/steam/audio.vox; sourceTree = "<group>"; };
 		A30F907120D6B1040085FC40 /* libbz2.1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libbz2.1.0.dylib; path = "/Users/monkey0506/janetg-ags/OSX/xcode/AGSKit/../../../../../../../../usr/lib/libbz2.1.0.dylib"; sourceTree = "<absolute>"; };
 		A30F907320D6B1070085FC40 /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = "/Users/monkey0506/janetg-ags/OSX/xcode/AGSKit/../../../../../../../../usr/lib/libz.1.dylib"; sourceTree = "<absolute>"; };
-		A30F907F20D6C3FA0085FC40 /* Unavowed-cheat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Unavowed-cheat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A30F90AB20D6C72A0085FC40 /* ac2game.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = ac2game.dat; path = game_files/steam/ac2game.dat; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -211,30 +178,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A30F907C20D6C3FA0085FC40 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A30F908E20D6C4260085FC40 /* libbz2.1.0.dylib in Frameworks */,
-				A30F908F20D6C4260085FC40 /* libz.1.dylib in Frameworks */,
-				A30F909120D6C4260085FC40 /* AudioToolbox.framework in Frameworks */,
-				A30F909220D6C4260085FC40 /* AudioUnit.framework in Frameworks */,
-				A30F909320D6C4260085FC40 /* CoreAudio.framework in Frameworks */,
-				A30F909420D6C4260085FC40 /* IOKit.framework in Frameworks */,
-				A30F909520D6C4260085FC40 /* CoreVideo.framework in Frameworks */,
-				A30F909620D6C4260085FC40 /* OpenGL.framework in Frameworks */,
-				A30F909720D6C4260085FC40 /* AppKit.framework in Frameworks */,
-				A30F909820D6C4260085FC40 /* Cocoa.framework in Frameworks */,
-				A30F909920D6C4260085FC40 /* AGSKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		14E15BB420DF1A4F004BA193 /* game_files_steam */ = {
 			isa = PBXGroup;
 			children = (
+				831439EF21E59E360014589E /* acsetup.cfg */,
 				836DA8EF21B1FF71001A2D2B /* Mages_Initiation.001 */,
 				836DA8EC21B1FF71001A2D2B /* Mages_Initiation.002 */,
 				836DA8F021B1FF71001A2D2B /* Mages_Initiation.003 */,
@@ -255,13 +205,25 @@
 			name = game_files_steam;
 			sourceTree = "<group>";
 		};
+		83FF9EC321B6F3E900535532 /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				83FF9EC121B6F35800535532 /* plugin_registration.cpp */,
+				83FF9EC021B6F35800535532 /* plugin_registration.hpp */,
+				83FF9EBF21B6F33A00535532 /* plugin_engine.h */,
+				83FF9EBE21B6F33200535532 /* agsplugin.h */,
+			);
+			name = Plugins;
+			sourceTree = "<group>";
+		};
 		A30F902820D6AC740085FC40 = {
 			isa = PBXGroup;
 			children = (
 				836DA90121B20B34001A2D2B /* libsteam_api.dylib */,
-				14CB299420FD76130020633F /* Unavowed_Steam.entitlements */,
+				14CB299420FD76130020633F /* Mages_Initiation_Steam.entitlements */,
 				A30F906520D6B06E0085FC40 /* game_files */,
-				A30F903320D6AC740085FC40 /* Unavowed */,
+				A30F903320D6AC740085FC40 /* Mage's Initiation */,
+				83FF9EC321B6F3E900535532 /* Plugins */,
 				A30F903220D6AC740085FC40 /* Products */,
 				A30F904220D6AE630085FC40 /* Frameworks */,
 			);
@@ -270,24 +232,21 @@
 		A30F903220D6AC740085FC40 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A30F903120D6AC740085FC40 /* Unavowed_Steam.app */,
-				A30F907F20D6C3FA0085FC40 /* Unavowed-cheat.app */,
-				14E15BAA20DF1993004BA193 /* Unavowed.app */,
+				A30F903120D6AC740085FC40 /* AGS_Game.app */,
+				14E15BAA20DF1993004BA193 /* MagesInitiation.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A30F903320D6AC740085FC40 /* Unavowed */ = {
+		A30F903320D6AC740085FC40 /* Mage's Initiation */ = {
 			isa = PBXGroup;
 			children = (
-				14CB299320FCAFD30020633F /* Unavowed.entitlements */,
-				A30F907820D6B3540085FC40 /* agswadjetutil */,
-				A30F905D20D6AF7F0085FC40 /* Plugins */,
+				14CB299320FCAFD30020633F /* Mages_Initiation.entitlements */,
 				A30F903620D6AC8F0085FC40 /* Images.xcassets */,
 				1444B1AB20D7463100A31ACB /* MainMenu.xib */,
 				A30F903B20D6AC8F0085FC40 /* Info.plist */,
 			);
-			name = Unavowed;
+			name = "Mage's Initiation";
 			sourceTree = "<group>";
 		};
 		A30F904220D6AE630085FC40 /* Frameworks */ = {
@@ -310,50 +269,21 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A30F905D20D6AF7F0085FC40 /* Plugins */ = {
-			isa = PBXGroup;
-			children = (
-				A30F906420D6B0370085FC40 /* plugin */,
-				A30F906020D6B0120085FC40 /* plugin_registration.cpp */,
-				A30F906120D6B0120085FC40 /* plugin_registration.hpp */,
-			);
-			name = Plugins;
-			sourceTree = "<group>";
-		};
-		A30F906420D6B0370085FC40 /* plugin */ = {
-			isa = PBXGroup;
-			children = (
-				A30F905F20D6AF9F0085FC40 /* agsplugin.h */,
-				A30F905E20D6AF9E0085FC40 /* plugin_engine.h */,
-			);
-			name = plugin;
-			sourceTree = "<group>";
-		};
 		A30F906520D6B06E0085FC40 /* game_files */ = {
 			isa = PBXGroup;
 			children = (
 				14E15BB420DF1A4F004BA193 /* game_files_steam */,
-				A30F906720D6B07D0085FC40 /* acsetup.cfg */,
 				A30F906920D6B07D0085FC40 /* steam_appid.txt */,
 			);
 			name = game_files;
 			sourceTree = "<group>";
 		};
-		A30F907820D6B3540085FC40 /* agswadjetutil */ = {
-			isa = PBXGroup;
-			children = (
-				1444B1A820D744AF00A31ACB /* agswadjetutil.cpp */,
-				1444B1AA20D744BD00A31ACB /* agswadjetutil.h */,
-			);
-			name = agswadjetutil;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		14E15B8C20DF1993004BA193 /* Unavowed */ = {
+		14E15B8C20DF1993004BA193 /* MagesInitiation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 14E15BA720DF1993004BA193 /* Build configuration list for PBXNativeTarget "Unavowed" */;
+			buildConfigurationList = 14E15BA720DF1993004BA193 /* Build configuration list for PBXNativeTarget "MagesInitiation" */;
 			buildPhases = (
 				14E15B8D20DF1993004BA193 /* Sources */,
 				14E15B9020DF1993004BA193 /* Frameworks */,
@@ -364,14 +294,14 @@
 			);
 			dependencies = (
 			);
-			name = Unavowed;
+			name = MagesInitiation;
 			productName = Unsteamvowed;
-			productReference = 14E15BAA20DF1993004BA193 /* Unavowed.app */;
+			productReference = 14E15BAA20DF1993004BA193 /* MagesInitiation.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A30F903020D6AC740085FC40 /* Unavowed_Steam */ = {
+		A30F903020D6AC740085FC40 /* AGS_Game */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A30F903F20D6AC8F0085FC40 /* Build configuration list for PBXNativeTarget "Unavowed_Steam" */;
+			buildConfigurationList = A30F903F20D6AC8F0085FC40 /* Build configuration list for PBXNativeTarget "AGS_Game" */;
 			buildPhases = (
 				A30F902D20D6AC740085FC40 /* Sources */,
 				A30F902E20D6AC740085FC40 /* Frameworks */,
@@ -383,27 +313,9 @@
 			);
 			dependencies = (
 			);
-			name = Unavowed_Steam;
+			name = AGS_Game;
 			productName = Unsteamvowed;
-			productReference = A30F903120D6AC740085FC40 /* Unavowed_Steam.app */;
-			productType = "com.apple.product-type.application";
-		};
-		A30F907E20D6C3FA0085FC40 /* Unavowed-cheat */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A30F908A20D6C4010085FC40 /* Build configuration list for PBXNativeTarget "Unavowed-cheat" */;
-			buildPhases = (
-				A30F907B20D6C3FA0085FC40 /* Sources */,
-				A30F907C20D6C3FA0085FC40 /* Frameworks */,
-				A30F907D20D6C3FA0085FC40 /* Resources */,
-				A30F90A520D6C4A20085FC40 /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Unavowed-cheat";
-			productName = "Unsteamvowed-cheat";
-			productReference = A30F907F20D6C3FA0085FC40 /* Unavowed-cheat.app */;
+			productReference = A30F903120D6AC740085FC40 /* AGS_Game.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -430,12 +342,9 @@
 							};
 						};
 					};
-					A30F907E20D6C3FA0085FC40 = {
-						CreatedOnToolsVersion = 9.4;
-					};
 				};
 			};
-			buildConfigurationList = A30F902C20D6AC740085FC40 /* Build configuration list for PBXProject "Unavowed" */;
+			buildConfigurationList = A30F902C20D6AC740085FC40 /* Build configuration list for PBXProject "AGS_Game" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -448,9 +357,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A30F903020D6AC740085FC40 /* Unavowed_Steam */,
-				A30F907E20D6C3FA0085FC40 /* Unavowed-cheat */,
-				14E15B8C20DF1993004BA193 /* Unavowed */,
+				A30F903020D6AC740085FC40 /* AGS_Game */,
+				14E15B8C20DF1993004BA193 /* MagesInitiation */,
 			);
 		};
 /* End PBXProject section */
@@ -461,7 +369,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				14E15B9F20DF1993004BA193 /* Images.xcassets in Resources */,
-				14E15BA020DF1993004BA193 /* acsetup.cfg in Resources */,
 				14E15BA220DF1993004BA193 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -476,7 +383,7 @@
 				A30F903720D6AC8F0085FC40 /* Images.xcassets in Resources */,
 				836DA8F521B200C9001A2D2B /* Mages_Initiation.001 in Resources */,
 				836DA8FD21B200C9001A2D2B /* Mages_Initiation.009 in Resources */,
-				A30F906C20D6B07D0085FC40 /* acsetup.cfg in Resources */,
+				831439F021E59E360014589E /* acsetup.cfg in Resources */,
 				836DA8F821B200C9001A2D2B /* Mages_Initiation.004 in Resources */,
 				836DA8F721B200C9001A2D2B /* Mages_Initiation.003 in Resources */,
 				836DA8FA21B200C9001A2D2B /* Mages_Initiation.006 in Resources */,
@@ -493,18 +400,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A30F907D20D6C3FA0085FC40 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A30F90A120D6C4780085FC40 /* Info.plist in Resources */,
-				A30F909A20D6C4560085FC40 /* acsetup.cfg in Resources */,
-				A30F909B20D6C4590085FC40 /* audio.vox in Resources */,
-				14E15BB520DF1A9F004BA193 /* ac2game.dat in Resources */,
-				14E15BBA20DF1CB8004BA193 /* speech.vox in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -512,8 +407,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14E15B8E20DF1993004BA193 /* agswadjetutil.cpp in Sources */,
-				14E15B8F20DF1993004BA193 /* plugin_registration.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -521,16 +414,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1444B1A920D744AF00A31ACB /* agswadjetutil.cpp in Sources */,
-				A30F906220D6B0120085FC40 /* plugin_registration.cpp in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A30F907B20D6C3FA0085FC40 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A30F909F20D6C46F0085FC40 /* plugin_registration.cpp in Sources */,
+				83FF9EC221B6F35900535532 /* plugin_registration.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -541,23 +425,23 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = Unavowed/Unavowed.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Mages_Initiation.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 69P49K3LPW;
+				DEVELOPMENT_TEAM = Y3867YPTW6;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					BUILTIN_PLUGINS,
 					MAC_VERSION,
 					"DEBUG=1",
 				);
-				INFOPLIST_FILE = "Unavowed copy-Info.plist";
+				INFOPLIST_FILE = Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				PRODUCT_BUNDLE_IDENTIFIER = com.wadjeteyegames.mac.Unavowed;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.himalayastudios.mac.magesinitiation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
@@ -568,22 +452,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = Unavowed/Unavowed.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Mages_Initiation.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 69P49K3LPW;
+				DEVELOPMENT_TEAM = Y3867YPTW6;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					BUILTIN_PLUGINS,
 					MAC_VERSION,
 				);
-				INFOPLIST_FILE = "Unavowed copy-Info.plist";
+				INFOPLIST_FILE = Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				PRODUCT_BUNDLE_IDENTIFIER = com.wadjeteyegames.mac.Unavowed;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.himalayastudios.mac.magesinitiation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
@@ -709,7 +593,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = "";
@@ -730,7 +614,6 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.wadjeteyegames.mac.Unavowed;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
@@ -743,7 +626,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = "";
@@ -763,7 +646,6 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.wadjeteyegames.mac.Unavowed;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
@@ -772,55 +654,10 @@
 			};
 			name = Release;
 		};
-		A30F908B20D6C4010085FC40 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "";
-				CODE_SIGN_STYLE = Manual;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					MAC_VERSION,
-					BUILTIN_PLUGINS,
-					"DEBUG=1",
-				);
-				INFOPLIST_FILE = "Unsteamvowed-cheat/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.monkeymoto.Unsteamvowed-cheat";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-			};
-			name = Debug;
-		};
-		A30F908C20D6C4010085FC40 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "";
-				CODE_SIGN_STYLE = Manual;
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					MAC_VERSION,
-					BUILTIN_PLUGINS,
-				);
-				INFOPLIST_FILE = "Unsteamvowed-cheat/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.monkeymoto.Unsteamvowed-cheat";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		14E15BA720DF1993004BA193 /* Build configuration list for PBXNativeTarget "Unavowed" */ = {
+		14E15BA720DF1993004BA193 /* Build configuration list for PBXNativeTarget "MagesInitiation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				14E15BA820DF1993004BA193 /* Debug */,
@@ -829,7 +666,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A30F902C20D6AC740085FC40 /* Build configuration list for PBXProject "Unavowed" */ = {
+		A30F902C20D6AC740085FC40 /* Build configuration list for PBXProject "AGS_Game" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A30F903D20D6AC8F0085FC40 /* Debug */,
@@ -838,20 +675,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A30F903F20D6AC8F0085FC40 /* Build configuration list for PBXNativeTarget "Unavowed_Steam" */ = {
+		A30F903F20D6AC8F0085FC40 /* Build configuration list for PBXNativeTarget "AGS_Game" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A30F904020D6AC8F0085FC40 /* Debug */,
 				A30F904120D6AC8F0085FC40 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A30F908A20D6C4010085FC40 /* Build configuration list for PBXNativeTarget "Unavowed-cheat" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A30F908B20D6C4010085FC40 /* Debug */,
-				A30F908C20D6C4010085FC40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
