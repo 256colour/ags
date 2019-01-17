@@ -8,7 +8,7 @@
 
 #include "plugin_registration.hpp"
 
-#include "plugin/agsplugin.h"
+#include "agsplugin.h"
 //#include "example.h"
 
 typedef void (*t_engine_pre_init_callback)(void);

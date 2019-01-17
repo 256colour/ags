@@ -28,7 +28,7 @@
 		836DA90221B20B34001A2D2B /* libsteam_api.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 836DA90121B20B34001A2D2B /* libsteam_api.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		836DA90321B20CFE001A2D2B /* libsteam_api.dylib in Copy Files */ = {isa = PBXBuildFile; fileRef = 839D400A21B1AF55006D1BA0 /* libsteam_api.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		838B2B6C21B0E23600665CC7 /* steam_appid.txt in Resources */ = {isa = PBXBuildFile; fileRef = A30F906920D6B07D0085FC40 /* steam_appid.txt */; };
-		83FF9EC221B6F35900535532 /* plugin_registration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83FF9EC121B6F35800535532 /* plugin_registration.cpp */; };
+		83AD6C9821F0CB8D00AD71F2 /* plugin_registration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83AD6C9621F0CB8D00AD71F2 /* plugin_registration.cpp */; };
 		A30F903720D6AC8F0085FC40 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A30F903620D6AC8F0085FC40 /* Images.xcassets */; };
 		A30F904420D6AE630085FC40 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30F904320D6AE630085FC40 /* AudioToolbox.framework */; };
 		A30F904620D6AE630085FC40 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30F904520D6AE630085FC40 /* AudioUnit.framework */; };
@@ -86,10 +86,10 @@
 		836DA8E321B1FB09001A2D2B /* libagsteam.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libagsteam.dylib; sourceTree = "<group>"; };
 		836DA90121B20B34001A2D2B /* libsteam_api.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libsteam_api.dylib; sourceTree = "<group>"; };
 		839D400A21B1AF55006D1BA0 /* libsteam_api.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsteam_api.dylib; path = ../../../../SteamWorksSDK/redistributable_bin/osx32/libsteam_api.dylib; sourceTree = "<group>"; };
+		83AD6C9621F0CB8D00AD71F2 /* plugin_registration.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = plugin_registration.cpp; path = ../ags/plugin_registration.cpp; sourceTree = "<group>"; };
+		83AD6C9721F0CB8D00AD71F2 /* plugin_registration.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = plugin_registration.hpp; path = ../ags/plugin_registration.hpp; sourceTree = "<group>"; };
 		83FF9EBE21B6F33200535532 /* agsplugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = agsplugin.h; path = ../../../Engine/plugin/agsplugin.h; sourceTree = "<group>"; };
 		83FF9EBF21B6F33A00535532 /* plugin_engine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = plugin_engine.h; path = ../../../Engine/plugin/plugin_engine.h; sourceTree = "<group>"; };
-		83FF9EC021B6F35800535532 /* plugin_registration.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = plugin_registration.hpp; path = ../wadjetcommon/plugin_registration.hpp; sourceTree = "<group>"; };
-		83FF9EC121B6F35800535532 /* plugin_registration.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = plugin_registration.cpp; path = ../wadjetcommon/plugin_registration.cpp; sourceTree = "<group>"; };
 		A30F903120D6AC740085FC40 /* AGS_Game-Steam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AGS_Game-Steam.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A30F903620D6AC8F0085FC40 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A30F903B20D6AC8F0085FC40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -160,8 +160,8 @@
 		83FF9EC321B6F3E900535532 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
-				83FF9EC121B6F35800535532 /* plugin_registration.cpp */,
-				83FF9EC021B6F35800535532 /* plugin_registration.hpp */,
+				83AD6C9621F0CB8D00AD71F2 /* plugin_registration.cpp */,
+				83AD6C9721F0CB8D00AD71F2 /* plugin_registration.hpp */,
 				83FF9EBF21B6F33A00535532 /* plugin_engine.h */,
 				83FF9EBE21B6F33200535532 /* agsplugin.h */,
 			);
@@ -342,7 +342,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83FF9EC221B6F35900535532 /* plugin_registration.cpp in Sources */,
+				83AD6C9821F0CB8D00AD71F2 /* plugin_registration.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -522,7 +522,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Mac Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = "";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -555,7 +555,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Mac Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = "";
 				GCC_PREPROCESSOR_DEFINITIONS = (
