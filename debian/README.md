@@ -108,6 +108,7 @@ In order to have digital sound & midi support, you will need to install the
 also need the **cmake** package in order to use the automated builder.
 
 Procedure for building Allegro 4.4.3 from source in Debian/Ubuntu:
+
     apt install libasound2-dev cmake
     wget https://github.com/liballeg/allegro5/archive/4.4.3.tar.gz
     tar -zxvf allegro5-4.4.3.tar.gz
